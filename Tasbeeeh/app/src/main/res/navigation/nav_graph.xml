@@ -1,0 +1,18 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph" app:startDestination="@id/qiblaFragment">
+    <fragment android:id="@+id/qiblaFragment" android:name="com.example.tasbeeeh.fragments.QiblaFragment" android:label="fragment_qibla" tools:layout="@layout/fragment_qibla">
+        <action android:id="@+id/action_qiblaFragment_to_settingsFragment" app:destination="@id/settingsFragment"/>
+        <action android:id="@+id/action_qiblaFragment_to_tasbeehFragment" app:destination="@id/tasbeehFragment"/>
+        <action android:id="@+id/action_qiblaFragment_to_quranFragment" app:destination="@id/quranFragment"/>
+    </fragment>
+    <fragment android:id="@+id/quranFragment" android:name="com.example.tasbeeeh.fragments.QuranFragment" android:label="fragment_quran" tools:layout="@layout/fragment_quran">
+        <action android:id="@+id/action_quranFragment_to_quranTextFragment" app:destination="@id/quranTextFragment"/>
+    </fragment>
+    <fragment android:id="@+id/quranTextFragment" android:name="com.example.tasbeeeh.fragments.QuranTextFragment" android:label="fragment_quran_text" tools:layout="@layout/fragment_quran_text">
+        <argument android:name="suraNumber" app:argType="integer"/>
+        <argument android:name="suraName" app:argType="string"/>
+        <argument android:name="suraEnglishName" app:argType="string"/>
+    </fragment>
+    <fragment android:id="@+id/settingsFragment" android:name="com.example.tasbeeeh.fragments.SettingsFragment" android:label="fragment_settings" tools:layout="@layout/fragment_settings"/>
+    <fragment android:id="@+id/tasbeehFragment" android:name="com.example.tasbeeeh.fragments.TasbeehFragment" android:label="fragment_tasbeeh" tools:layout="@layout/fragment_tasbeeh"/>
+    <activity android:id="@+id/mainActivity" android:name="com.example.tasbeeeh.MainActivity" android:label="activity_main" tools:layout="@layout/activity_main"/>
+</navigation>

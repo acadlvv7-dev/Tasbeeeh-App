@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_fon_new"
+    tools:context=".fragments.QiblaFragment">
+
+    <!-- Top Dark Green Header Background Container -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/header_background_card"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginHorizontal="-10dp"
+        app:cardBackgroundColor="#0F1D19"
+        app:cardCornerRadius="40dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="45dp"
+            android:paddingHorizontal="25dp"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Middle Image Flipper -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/qibla_img_card"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="-130dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="6dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintTop_toBottomOf="@id/header_background_card">
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autoStart="true"
+            android:flipInterval="3000"
+            android:inAnimation="@android:anim/fade_in"
+            android:outAnimation="@android:anim/fade_out">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/qibla_img"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_qibla_1"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_qibla_2"
+                android:scaleType="centerCrop"/>
+        </ViewFlipper>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Compass Area -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/compass_area"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/qibla_img_card"
+        app:layout_constraintBottom_toTopOf="@id/info_card"
+        android:layout_marginVertical="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.05"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_fon_new" />
+
+        <ImageView
+            android:id="@+id/qibla_outer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintWidth_percent="0.85"
+            app:layout_constraintDimensionRatio="1:1"
+            android:src="@drawable/qibla_tashqi_rasm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/naviagtion_compass"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintWidth_percent="0.45"
+            app:layout_constraintDimensionRatio="1:1"
+            android:src="@drawable/qibla_strelka"
+            app:layout_constraintBottom_toBottomOf="@id/qibla_outer"
+            app:layout_constraintLeft_toLeftOf="@id/qibla_outer"
+            app:layout_constraintRight_toRightOf="@id/qibla_outer"
+            app:layout_constraintTop_toTopOf="@id/qibla_outer" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Bottom Info Card - Responsive with Percentage Width -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/info_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="25dp"
+        app:cardBackgroundColor="#0F1D19"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="18dp"
+            android:paddingHorizontal="12dp">
+
+            <!-- Guideline for splitting left and right -->
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <!-- Left Section: Qibla Direction -->
+            <ImageView
+                android:id="@+id/iv_qibla_small"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_compas"
+                app:tint="#C5A059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="8dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_qibla_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="4dp"
+                app:layout_constraintStart_toEndOf="@id/iv_qibla_small"
+                app:layout_constraintEnd_toStartOf="@id/guideline_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qibla Direction"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="11sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+
+                <TextView
+                    android:id="@+id/tv_qibla_degree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="292°"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="20sp"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <!-- Right Section: Distance -->
+            <ImageView
+                android:id="@+id/iv_dist_small"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_compas"
+                app:tint="#C5A059"
+                app:layout_constraintStart_toStartOf="@id/guideline_vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginStart="8dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_dist_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toEndOf="@id/iv_dist_small"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Distance"
+                    android:textColor="#80FFFFFF"
+                    android:textSize="11sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"/>
+
+                <TextView
+                    android:id="@+id/tv_qibla_dist"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2488 km"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    app:autoSizeTextType="uniform"
+                    app:autoSizeMinTextSize="12sp"
+                    app:autoSizeMaxTextSize="20sp"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

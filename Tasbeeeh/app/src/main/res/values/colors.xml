@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tasbeeh_card_selected">#1A73E8</color>
+    <color name="bottom_nav_bg">#0F1D19</color>
+    <color name="gold_active">#C5A059</color>
+    <color name="gold_inactive">#80C5A059</color>
+    <color name="indicator_color">#40C5A059</color>
+</resources>

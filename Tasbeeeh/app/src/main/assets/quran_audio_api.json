@@ -1,0 +1,464 @@
+{
+  "description": "114 ta suraning audio (tilovat) fayllari havolalari. Har bir URL to'g'ridan-to'g'ri mp3 fayl bo'lib, ilovada player orqali stream/pleer qilib ishlatiladi.",
+  "reciter": "Mishary Rashid Alafasy",
+  "bitrate": "128kbps",
+  "note": "Boshqa qori kerak bo'lsa, URL ichidagi 'ar.alafasy' qismini almashtirish kifoya (masalan 'ar.husary', 'ar.minshawi').",
+  "surahs": [
+    {
+      "surah_number": 1,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/1.mp3"
+    },
+    {
+      "surah_number": 2,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/2.mp3"
+    },
+    {
+      "surah_number": 3,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/3.mp3"
+    },
+    {
+      "surah_number": 4,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/4.mp3"
+    },
+    {
+      "surah_number": 5,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/5.mp3"
+    },
+    {
+      "surah_number": 6,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/6.mp3"
+    },
+    {
+      "surah_number": 7,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/7.mp3"
+    },
+    {
+      "surah_number": 8,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/8.mp3"
+    },
+    {
+      "surah_number": 9,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/9.mp3"
+    },
+    {
+      "surah_number": 10,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/10.mp3"
+    },
+    {
+      "surah_number": 11,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/11.mp3"
+    },
+    {
+      "surah_number": 12,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/12.mp3"
+    },
+    {
+      "surah_number": 13,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/13.mp3"
+    },
+    {
+      "surah_number": 14,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/14.mp3"
+    },
+    {
+      "surah_number": 15,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/15.mp3"
+    },
+    {
+      "surah_number": 16,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/16.mp3"
+    },
+    {
+      "surah_number": 17,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/17.mp3"
+    },
+    {
+      "surah_number": 18,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/18.mp3"
+    },
+    {
+      "surah_number": 19,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/19.mp3"
+    },
+    {
+      "surah_number": 20,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/20.mp3"
+    },
+    {
+      "surah_number": 21,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/21.mp3"
+    },
+    {
+      "surah_number": 22,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/22.mp3"
+    },
+    {
+      "surah_number": 23,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/23.mp3"
+    },
+    {
+      "surah_number": 24,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/24.mp3"
+    },
+    {
+      "surah_number": 25,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/25.mp3"
+    },
+    {
+      "surah_number": 26,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/26.mp3"
+    },
+    {
+      "surah_number": 27,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/27.mp3"
+    },
+    {
+      "surah_number": 28,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/28.mp3"
+    },
+    {
+      "surah_number": 29,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/29.mp3"
+    },
+    {
+      "surah_number": 30,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/30.mp3"
+    },
+    {
+      "surah_number": 31,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/31.mp3"
+    },
+    {
+      "surah_number": 32,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/32.mp3"
+    },
+    {
+      "surah_number": 33,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/33.mp3"
+    },
+    {
+      "surah_number": 34,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/34.mp3"
+    },
+    {
+      "surah_number": 35,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/35.mp3"
+    },
+    {
+      "surah_number": 36,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/36.mp3"
+    },
+    {
+      "surah_number": 37,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/37.mp3"
+    },
+    {
+      "surah_number": 38,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/38.mp3"
+    },
+    {
+      "surah_number": 39,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/39.mp3"
+    },
+    {
+      "surah_number": 40,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/40.mp3"
+    },
+    {
+      "surah_number": 41,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/41.mp3"
+    },
+    {
+      "surah_number": 42,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/42.mp3"
+    },
+    {
+      "surah_number": 43,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/43.mp3"
+    },
+    {
+      "surah_number": 44,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/44.mp3"
+    },
+    {
+      "surah_number": 45,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/45.mp3"
+    },
+    {
+      "surah_number": 46,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/46.mp3"
+    },
+    {
+      "surah_number": 47,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/47.mp3"
+    },
+    {
+      "surah_number": 48,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/48.mp3"
+    },
+    {
+      "surah_number": 49,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/49.mp3"
+    },
+    {
+      "surah_number": 50,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/50.mp3"
+    },
+    {
+      "surah_number": 51,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/51.mp3"
+    },
+    {
+      "surah_number": 52,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/52.mp3"
+    },
+    {
+      "surah_number": 53,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/53.mp3"
+    },
+    {
+      "surah_number": 54,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/54.mp3"
+    },
+    {
+      "surah_number": 55,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/55.mp3"
+    },
+    {
+      "surah_number": 56,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/56.mp3"
+    },
+    {
+      "surah_number": 57,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/57.mp3"
+    },
+    {
+      "surah_number": 58,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/58.mp3"
+    },
+    {
+      "surah_number": 59,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/59.mp3"
+    },
+    {
+      "surah_number": 60,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/60.mp3"
+    },
+    {
+      "surah_number": 61,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/61.mp3"
+    },
+    {
+      "surah_number": 62,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/62.mp3"
+    },
+    {
+      "surah_number": 63,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/63.mp3"
+    },
+    {
+      "surah_number": 64,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/64.mp3"
+    },
+    {
+      "surah_number": 65,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/65.mp3"
+    },
+    {
+      "surah_number": 66,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/66.mp3"
+    },
+    {
+      "surah_number": 67,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/67.mp3"
+    },
+    {
+      "surah_number": 68,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/68.mp3"
+    },
+    {
+      "surah_number": 69,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/69.mp3"
+    },
+    {
+      "surah_number": 70,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/70.mp3"
+    },
+    {
+      "surah_number": 71,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/71.mp3"
+    },
+    {
+      "surah_number": 72,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/72.mp3"
+    },
+    {
+      "surah_number": 73,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/73.mp3"
+    },
+    {
+      "surah_number": 74,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/74.mp3"
+    },
+    {
+      "surah_number": 75,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/75.mp3"
+    },
+    {
+      "surah_number": 76,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/76.mp3"
+    },
+    {
+      "surah_number": 77,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/77.mp3"
+    },
+    {
+      "surah_number": 78,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/78.mp3"
+    },
+    {
+      "surah_number": 79,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/79.mp3"
+    },
+    {
+      "surah_number": 80,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/80.mp3"
+    },
+    {
+      "surah_number": 81,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/81.mp3"
+    },
+    {
+      "surah_number": 82,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/82.mp3"
+    },
+    {
+      "surah_number": 83,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/83.mp3"
+    },
+    {
+      "surah_number": 84,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/84.mp3"
+    },
+    {
+      "surah_number": 85,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/85.mp3"
+    },
+    {
+      "surah_number": 86,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/86.mp3"
+    },
+    {
+      "surah_number": 87,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/87.mp3"
+    },
+    {
+      "surah_number": 88,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/88.mp3"
+    },
+    {
+      "surah_number": 89,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/89.mp3"
+    },
+    {
+      "surah_number": 90,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/90.mp3"
+    },
+    {
+      "surah_number": 91,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/91.mp3"
+    },
+    {
+      "surah_number": 92,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/92.mp3"
+    },
+    {
+      "surah_number": 93,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/93.mp3"
+    },
+    {
+      "surah_number": 94,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/94.mp3"
+    },
+    {
+      "surah_number": 95,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/95.mp3"
+    },
+    {
+      "surah_number": 96,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/96.mp3"
+    },
+    {
+      "surah_number": 97,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/97.mp3"
+    },
+    {
+      "surah_number": 98,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/98.mp3"
+    },
+    {
+      "surah_number": 99,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/99.mp3"
+    },
+    {
+      "surah_number": 100,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/100.mp3"
+    },
+    {
+      "surah_number": 101,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/101.mp3"
+    },
+    {
+      "surah_number": 102,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/102.mp3"
+    },
+    {
+      "surah_number": 103,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/103.mp3"
+    },
+    {
+      "surah_number": 104,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/104.mp3"
+    },
+    {
+      "surah_number": 105,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/105.mp3"
+    },
+    {
+      "surah_number": 106,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/106.mp3"
+    },
+    {
+      "surah_number": 107,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/107.mp3"
+    },
+    {
+      "surah_number": 108,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/108.mp3"
+    },
+    {
+      "surah_number": 109,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/109.mp3"
+    },
+    {
+      "surah_number": 110,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/110.mp3"
+    },
+    {
+      "surah_number": 111,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/111.mp3"
+    },
+    {
+      "surah_number": 112,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/112.mp3"
+    },
+    {
+      "surah_number": 113,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/113.mp3"
+    },
+    {
+      "surah_number": 114,
+      "audio_url": "https://cdn.islamic.network/quran/audio-surah/128/ar.alafasy/114.mp3"
+    }
+  ]
+}

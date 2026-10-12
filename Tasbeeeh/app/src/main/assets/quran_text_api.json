@@ -1,0 +1,463 @@
+{
+  "description": "114 ta suraning lotin transliteratsiya matnini olish uchun API havolalari (Al Quran Cloud). Har bir URL'ga GET so'rov yuborilsa, shu suraning to'liq matni JSON holida qaytadi.",
+  "base_api": "https://api.alquran.cloud/v1",
+  "edition_used": "en.transliteration",
+  "surahs": [
+    {
+      "surah_number": 1,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/1/en.transliteration"
+    },
+    {
+      "surah_number": 2,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/2/en.transliteration"
+    },
+    {
+      "surah_number": 3,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/3/en.transliteration"
+    },
+    {
+      "surah_number": 4,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/4/en.transliteration"
+    },
+    {
+      "surah_number": 5,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/5/en.transliteration"
+    },
+    {
+      "surah_number": 6,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/6/en.transliteration"
+    },
+    {
+      "surah_number": 7,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/7/en.transliteration"
+    },
+    {
+      "surah_number": 8,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/8/en.transliteration"
+    },
+    {
+      "surah_number": 9,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/9/en.transliteration"
+    },
+    {
+      "surah_number": 10,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/10/en.transliteration"
+    },
+    {
+      "surah_number": 11,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/11/en.transliteration"
+    },
+    {
+      "surah_number": 12,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/12/en.transliteration"
+    },
+    {
+      "surah_number": 13,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/13/en.transliteration"
+    },
+    {
+      "surah_number": 14,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/14/en.transliteration"
+    },
+    {
+      "surah_number": 15,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/15/en.transliteration"
+    },
+    {
+      "surah_number": 16,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/16/en.transliteration"
+    },
+    {
+      "surah_number": 17,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/17/en.transliteration"
+    },
+    {
+      "surah_number": 18,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/18/en.transliteration"
+    },
+    {
+      "surah_number": 19,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/19/en.transliteration"
+    },
+    {
+      "surah_number": 20,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/20/en.transliteration"
+    },
+    {
+      "surah_number": 21,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/21/en.transliteration"
+    },
+    {
+      "surah_number": 22,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/22/en.transliteration"
+    },
+    {
+      "surah_number": 23,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/23/en.transliteration"
+    },
+    {
+      "surah_number": 24,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/24/en.transliteration"
+    },
+    {
+      "surah_number": 25,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/25/en.transliteration"
+    },
+    {
+      "surah_number": 26,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/26/en.transliteration"
+    },
+    {
+      "surah_number": 27,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/27/en.transliteration"
+    },
+    {
+      "surah_number": 28,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/28/en.transliteration"
+    },
+    {
+      "surah_number": 29,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/29/en.transliteration"
+    },
+    {
+      "surah_number": 30,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/30/en.transliteration"
+    },
+    {
+      "surah_number": 31,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/31/en.transliteration"
+    },
+    {
+      "surah_number": 32,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/32/en.transliteration"
+    },
+    {
+      "surah_number": 33,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/33/en.transliteration"
+    },
+    {
+      "surah_number": 34,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/34/en.transliteration"
+    },
+    {
+      "surah_number": 35,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/35/en.transliteration"
+    },
+    {
+      "surah_number": 36,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/36/en.transliteration"
+    },
+    {
+      "surah_number": 37,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/37/en.transliteration"
+    },
+    {
+      "surah_number": 38,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/38/en.transliteration"
+    },
+    {
+      "surah_number": 39,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/39/en.transliteration"
+    },
+    {
+      "surah_number": 40,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/40/en.transliteration"
+    },
+    {
+      "surah_number": 41,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/41/en.transliteration"
+    },
+    {
+      "surah_number": 42,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/42/en.transliteration"
+    },
+    {
+      "surah_number": 43,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/43/en.transliteration"
+    },
+    {
+      "surah_number": 44,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/44/en.transliteration"
+    },
+    {
+      "surah_number": 45,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/45/en.transliteration"
+    },
+    {
+      "surah_number": 46,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/46/en.transliteration"
+    },
+    {
+      "surah_number": 47,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/47/en.transliteration"
+    },
+    {
+      "surah_number": 48,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/48/en.transliteration"
+    },
+    {
+      "surah_number": 49,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/49/en.transliteration"
+    },
+    {
+      "surah_number": 50,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/50/en.transliteration"
+    },
+    {
+      "surah_number": 51,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/51/en.transliteration"
+    },
+    {
+      "surah_number": 52,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/52/en.transliteration"
+    },
+    {
+      "surah_number": 53,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/53/en.transliteration"
+    },
+    {
+      "surah_number": 54,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/54/en.transliteration"
+    },
+    {
+      "surah_number": 55,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/55/en.transliteration"
+    },
+    {
+      "surah_number": 56,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/56/en.transliteration"
+    },
+    {
+      "surah_number": 57,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/57/en.transliteration"
+    },
+    {
+      "surah_number": 58,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/58/en.transliteration"
+    },
+    {
+      "surah_number": 59,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/59/en.transliteration"
+    },
+    {
+      "surah_number": 60,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/60/en.transliteration"
+    },
+    {
+      "surah_number": 61,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/61/en.transliteration"
+    },
+    {
+      "surah_number": 62,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/62/en.transliteration"
+    },
+    {
+      "surah_number": 63,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/63/en.transliteration"
+    },
+    {
+      "surah_number": 64,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/64/en.transliteration"
+    },
+    {
+      "surah_number": 65,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/65/en.transliteration"
+    },
+    {
+      "surah_number": 66,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/66/en.transliteration"
+    },
+    {
+      "surah_number": 67,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/67/en.transliteration"
+    },
+    {
+      "surah_number": 68,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/68/en.transliteration"
+    },
+    {
+      "surah_number": 69,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/69/en.transliteration"
+    },
+    {
+      "surah_number": 70,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/70/en.transliteration"
+    },
+    {
+      "surah_number": 71,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/71/en.transliteration"
+    },
+    {
+      "surah_number": 72,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/72/en.transliteration"
+    },
+    {
+      "surah_number": 73,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/73/en.transliteration"
+    },
+    {
+      "surah_number": 74,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/74/en.transliteration"
+    },
+    {
+      "surah_number": 75,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/75/en.transliteration"
+    },
+    {
+      "surah_number": 76,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/76/en.transliteration"
+    },
+    {
+      "surah_number": 77,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/77/en.transliteration"
+    },
+    {
+      "surah_number": 78,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/78/en.transliteration"
+    },
+    {
+      "surah_number": 79,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/79/en.transliteration"
+    },
+    {
+      "surah_number": 80,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/80/en.transliteration"
+    },
+    {
+      "surah_number": 81,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/81/en.transliteration"
+    },
+    {
+      "surah_number": 82,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/82/en.transliteration"
+    },
+    {
+      "surah_number": 83,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/83/en.transliteration"
+    },
+    {
+      "surah_number": 84,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/84/en.transliteration"
+    },
+    {
+      "surah_number": 85,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/85/en.transliteration"
+    },
+    {
+      "surah_number": 86,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/86/en.transliteration"
+    },
+    {
+      "surah_number": 87,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/87/en.transliteration"
+    },
+    {
+      "surah_number": 88,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/88/en.transliteration"
+    },
+    {
+      "surah_number": 89,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/89/en.transliteration"
+    },
+    {
+      "surah_number": 90,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/90/en.transliteration"
+    },
+    {
+      "surah_number": 91,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/91/en.transliteration"
+    },
+    {
+      "surah_number": 92,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/92/en.transliteration"
+    },
+    {
+      "surah_number": 93,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/93/en.transliteration"
+    },
+    {
+      "surah_number": 94,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/94/en.transliteration"
+    },
+    {
+      "surah_number": 95,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/95/en.transliteration"
+    },
+    {
+      "surah_number": 96,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/96/en.transliteration"
+    },
+    {
+      "surah_number": 97,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/97/en.transliteration"
+    },
+    {
+      "surah_number": 98,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/98/en.transliteration"
+    },
+    {
+      "surah_number": 99,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/99/en.transliteration"
+    },
+    {
+      "surah_number": 100,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/100/en.transliteration"
+    },
+    {
+      "surah_number": 101,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/101/en.transliteration"
+    },
+    {
+      "surah_number": 102,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/102/en.transliteration"
+    },
+    {
+      "surah_number": 103,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/103/en.transliteration"
+    },
+    {
+      "surah_number": 104,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/104/en.transliteration"
+    },
+    {
+      "surah_number": 105,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/105/en.transliteration"
+    },
+    {
+      "surah_number": 106,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/106/en.transliteration"
+    },
+    {
+      "surah_number": 107,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/107/en.transliteration"
+    },
+    {
+      "surah_number": 108,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/108/en.transliteration"
+    },
+    {
+      "surah_number": 109,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/109/en.transliteration"
+    },
+    {
+      "surah_number": 110,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/110/en.transliteration"
+    },
+    {
+      "surah_number": 111,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/111/en.transliteration"
+    },
+    {
+      "surah_number": 112,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/112/en.transliteration"
+    },
+    {
+      "surah_number": 113,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/113/en.transliteration"
+    },
+    {
+      "surah_number": 114,
+      "text_api_url": "https://api.alquran.cloud/v1/surah/114/en.transliteration"
+    }
+  ]
+}

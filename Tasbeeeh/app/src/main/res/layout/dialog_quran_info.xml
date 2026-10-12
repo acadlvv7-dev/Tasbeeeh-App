@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp"
+    android:paddingBottom="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        app:cardBackgroundColor="#F8F5EE"
+        app:cardCornerRadius="35dp"
+        app:cardElevation="0dp"
+        app:strokeWidth="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp">
+
+            <!-- Language Switcher -->
+            <LinearLayout
+                android:id="@+id/ll_lang_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/bg_bottom_nav_rounded"
+                android:backgroundTint="#10000000"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/tv_lang_uz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_bottom_nav_rounded"
+                    android:backgroundTint="#0F1D19"
+                    android:gravity="center"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="8dp"
+                    android:text="O'zbekcha"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_lang_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_bottom_nav_rounded"
+                    android:backgroundTint="@android:color/transparent"
+                    android:gravity="center"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="8dp"
+                    android:text="English"
+                    android:textColor="#60000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Ma'lumot"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_lang_switch" />
+
+            <TextView
+                android:id="@+id/tv_dialog_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:text="Ba'zi suralar audiosi uzun va yuqori sifatli bo'lgani uchun serverdan yuklanishi bir necha soniya vaqt olishi mumkin. Iltimos, sabr qiling. Tushunganingiz uchun minnatdormiz. Quron nuri qalbingizni munavvar qilsin!"
+                android:textColor="#80000000"
+                android:textSize="15sp"
+                app:layout_constraintTop_toBottomOf="@id/tv_dialog_title" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_got_it"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#0F1D19"
+                android:text="Tushunarli"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:cornerRadius="24dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_dialog_desc" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- Top Icon Circle -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="top|center_horizontal"
+        app:cardBackgroundColor="#0F1D19"
+        app:cardCornerRadius="32dp"
+        app:cardElevation="10dp"
+        app:strokeColor="#F8F5EE"
+        app:strokeWidth="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:src="@drawable/ic_infooo"
+            app:tint="#C5A059" />
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>
